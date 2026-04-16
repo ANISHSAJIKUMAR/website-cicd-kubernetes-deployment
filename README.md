@@ -1,39 +1,23 @@
-# Website Cicd Kubernetes Deployment
+# Website CI/CD Kubernetes Deployment
 
-    Website Cicd Kubernetes Deployment: CSS-based project repository with source and project assets.
+This repository contains a containerized static website with deployment assets for a Kubernetes-based delivery flow.
 
-    ## Tech Stack
+## What it shows
 
-    - Docker
+- Docker image packaging
+- Jenkins-based build and delivery workflow
+- Kubernetes deployment manifests
+- Static website assets and supporting media
 
-    ## Repository Structure
+## Repository structure
 
-    - `Dockerfile`
-- `Jenkinsfile`
-- `avatar.jpeg`
-- `brad.jpg`
-- `css`
-- `david.jpg`
-- `deployment.yaml`
-- `faces.png`
-- `heart.png`
-- `holly.jpg`
-- `img`
-- `index.html`
+- `Dockerfile`: container build definition
+- `Jenkinsfile`: CI/CD pipeline definition
+- `deployment.yaml`: Kubernetes deployment manifest
+- `css/` and `img/`: website assets
 
-    ## Getting Started
+## Suggested next steps
 
-    ```text
-Add project-specific setup/run steps here.
-```
-
-    ## Development Notes
-
-    - Keep secrets out of version control (use environment variables or local `.env` files).
-    - Run formatting/linting/tests before pushing changes.
-    - Update this README when setup or project scope changes.
-
-    ## Status
-
-    - README refreshed automatically on 2026-04-15.
-    - If any section is too generic for this repo, refine it with project-specific details.
+- Document the local run command for the site.
+- Add a screenshot or demo link in the README.
+- Keep deployment and build instructions in sync with the Jenkins pipeline.
